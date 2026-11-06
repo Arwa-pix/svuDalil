@@ -1,0 +1,395 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #123456;
+    background-color: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* navbar  */
+
+.navbar {
+    background-color: #063b66;
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.site-name {
+    color: white;
+    font-weight: bold;
+    font-size: 1.05rem;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    margin-right: 5px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #8de8f5 !important;
+}
+
+.hero {
+    background-color: #eefaff;
+    overflow-x: scroll;
+}
+
+.hero-image{
+    width: 100%;
+    height: auto; 
+}
+
+.hero-text,
+.event-card .card-title,
+.event-card .card-text {
+    overflow-wrap: anywhere;
+}
+
+.btn-primary {
+    background-color: #087ea4;
+    border-color: #087ea4;
+}
+
+.btn-primary:hover {
+    background-color: #063b66;
+    border-color: #063b66;
+}
+
+.btn-outline-primary {
+    color: #087ea4;
+    border-color: #087ea4;
+}
+
+.btn-outline-primary:hover {
+    background-color: #087ea4;
+    border-color: #087ea4;
+}
+
+
+/* student card  */
+
+.student-card {
+    padding: 20px 10px;
+    background-color: #ffffff;
+    border: 1px solid #d9edf2;
+    border-radius: 12px;
+    transition: 0.2s;
+}
+
+.student-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 70, 110, 0.1);
+}
+
+.student-card h5 {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    color: #063b66;
+}
+
+/* categories  */
+
+.category-btn {
+    border: 1px solid #b9dce5;
+    color: #075985;
+    background-color: white;
+}
+
+.category-btn:hover,
+.category-btn.active {
+    color: white;
+    background-color: #087ea4;
+    border-color: #087ea4;
+}
+
+/* card  */
+
+.event-card {
+    border: 1px solid #dceff3;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 70, 110, 0.1);
+}
+
+
+/* footer  */
+
+.site-footer {
+    background-color: #063b66;
+    color: white;
+}
+
+.site-footer h5,
+.site-footer h6 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.site-footer p {
+    color: #c8e3ed;
+}
+
+.site-footer ul li {
+    margin-bottom: 8px;
+}
+
+.site-footer a {
+    color: #c8e3ed;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: white;
+}
+
+
+/* socail media  */
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    margin-left: 5px;
+    border-radius: 50%;
+    background-color: #087ea4;
+    color: white;
+    transition: 0.2s;
+}
+
+
+/* scroll to top  */
+.scroll-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 75px;
+    height: 75px;
+    font-size: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: #087ea4;
+    color: white;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.scroll-top:hover {
+    background-color: #063b66;
+}
+
+/* events page  */
+.event-filters {
+    background-color: #f2fbfd;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.event-image {
+    height: 170px;
+    object-fit: cover;
+}
+
+.event-card .card-title {
+    color: #063b66;
+    font-size: 1rem;
+}
+
+.event-card .card-text {
+    line-height: 1.5;
+}
+
+.event-card .bi {
+    color: #087ea4;
+}
+
+/* event page  */
+.event-main-image {
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.event-details iframe {
+    max-width: 100%;
+}
+
+.event-gallery-image {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.event-gallery-image:hover {
+    transform: scale(1.05);
+}
+
+.related-event-image {
+    height: 180px;
+    object-fit: cover;
+}
+
+/* contact form  */
+
+.contact-box,
+.university-box {
+    background-color:#d9edf2;
+    border: 1px solid #dce8f2;
+}
+
+.contact-box h2,
+.university-box h2 {
+    color: #234b70;
+}
+
+.form-label {
+    color: #234b70;
+}
+
+.form-control {
+    border: 1px solid #d7e1ea;
+}
+
+.form-control:focus {
+    border-color: #1d6fa5;
+    box-shadow: 0 0 0 0.15rem rgba(29, 111, 165, 0.15);
+}
+
+.submit-btn {
+    background-color: #1685ad;
+    color: white;
+    border: none;
+}
+
+.submit-btn:hover {
+    background-color: #126f91;
+    color: white;
+}
+
+/* unviersity box  */
+.university-table {
+    vertical-align: middle;
+    border: 1px solid #dce8f2;
+}
+
+.university-table th {
+    width: 35%;
+    background-color: #9bcaf3;
+    color: #234b70;
+    padding: 16px;
+}
+
+.university-table td {
+    background-color: #9bcaf366;
+    color: #444;
+    padding: 16px;
+}
+
+.university-table tr {
+    border-bottom: 1px solid #dce8f2;
+}
+
+/* about page */
+.page-title {
+    color: #234b70;
+}
+
+.section-title {
+    color: #234b70;
+}
+
+.about-box,
+.team-box,
+.policies-box {
+    background-color:#d9edf2;
+    border: 1px solid #dce8f2;
+}
+
+.about-box p {
+    color: #555;
+    line-height: 2;
+}
+
+.member-card {
+    border: 1px solid #e0e8ef;
+    border-radius: 15px;
+    padding: 25px 15px;
+    background-color: #9bcaf366;
+    transition: 0.3s;
+}
+
+.member-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(35, 75, 112, 0.12);
+}
+
+.member-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #e5f1f8;
+}
+
+.member-id {
+    color: #1d6fa5;
+    font-weight: 500;
+}
+
+.policy-item {
+    background-color: #9bcaf366;
+    border: 1px solid #dce8f2;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.policy-item h5 {
+    color: #234b70;
+    margin-bottom: 12px;
+}
+
+.policy-item p {
+    color: #555;
+    line-height: 1.9;
+}
+
+
+/* mobile screen  */
+@media (max-width: 768px) {
+    .site-name {
+        font-size: 0.9rem;
+    }
+    .scroll-top {
+        right: 15px;
+        bottom: 20px;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .event-main-image {
+        max-height: 300px;
+    }
+    .event-gallery-image {
+        height: 150px;
+    }
+}
